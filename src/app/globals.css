@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.main-div{
+  width: 1444px;
+height: 1778px;
+top: -1285px;
+left: -2121px;
+gap: 0px;
+opacity: 0px;
+background: #292B32;
+
+
+}
+.sub-div{
+  width: 1241px;
+height: 673px;
+top: -1221px;
+left: -2019px;
+gap: 0px;
+opacity: 0px;
+
+}
+.sport{
+  margin: 10px 10px;
+  width: 80px;
+  height: 41px;
+  top: -1221px;
+  left: -2019px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.box-main{
+  display:flex;
+  flex-direction:row;
+}
+.box{
+  width: 237px;
+height: 511px;
+top: -1155px;
+left: -2019px;
+gap: 0px;
+opacity: 0px;
+box-shadow: 0px 4px 8px 0px #0000000D;
+background: #3B3E47;
+margin: 10px 10px;
+
+
+}
+.img{
+  height:300px;
+  margin:auto;
+}
+/* .box>div{
+  border:2px solid red;
+} */
+.text{
+  font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 20.57px;
+text-align: left;
+margin-left:10px;
+
+}
+.text-div{
+  width: 217px;
+height: 54px;
+top: -708px;
+left: -2009px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.box-div-cont{
+  display:flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  background: #292B32;
+  height:80px;
+  /* border:2px solid teal; */
+
+}
+
+.box-first
+{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 14.52px;
+  text-align: left;
+}
+
+.box-second
+{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+
+}
+
+.second-box{
+  text-align: center;
+  width: 1240px;
+height: 918px;
+top: -513px;
+left: -2019px;
+gap: 0px;
+opacity: 0px;
+margin:20px 20px;
+
+}
+
+
+.second-box-main{
+  width: 257px;
+  gap: 0px;
+  opacity: 0px;
+  border: 0.96px solid #818A97;
+  background: #3B3E47;
+
+  
+}
+.second-flex{
+ 
+width: 80%;
+margin:auto;
+display: flex;
+flex-direction: row;
+gap:10%;
+}
+
+
+
+.black-box{
+  width: 213px;
+height: 36px;
+top: 308.83px;
+left: -1802px;
+gap: 0px;
+opacity: 0px;
+background: black !important;
+margin:auto;
+padding-top:8px;
+
+}
